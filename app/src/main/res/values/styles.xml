@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppWidgetConfigDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- make the window background solid black -->
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowMinWidthMajor">300dp</item>
+        <item name="android:windowMinWidthMinor">300dp</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_editor_border"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your note…"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/transparent"
+        android:inputType="textMultiLine"
+        android:imeOptions="flagNoExtractUi" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#444444"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="end" />
+
+</LinearLayout>
+

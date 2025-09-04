@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background note (keep as .9.png so padding works) -->
+    <item
+        android:id="@+id/layer_note"
+        android:drawable="@drawable/notebguf" />
+
+    <!-- Foreground clip/pin (PNG or 9-patch) -->
+    <item
+        android:id="@+id/layer_clip"
+        android:drawable="@drawable/clipbg" />
+</layer-list>

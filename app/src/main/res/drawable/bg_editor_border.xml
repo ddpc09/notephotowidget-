@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- fill the inside black -->
+    <solid android:color="#000000"/>
+
+    <!-- white border, thinner than before -->
+    <stroke
+        android:width="0dp"
+        android:color="#FFFFFF"/>
+
+    <!-- a gentle corner radius -->
+    <corners android:radius="4dp"/>
+
+    <!-- inner padding so your text & button never hug the edge -->
+    <padding
+        android:left="12dp"
+        android:top="12dp"
+        android:right="12dp"
+        android:bottom="12dp"/>
+</shape>
